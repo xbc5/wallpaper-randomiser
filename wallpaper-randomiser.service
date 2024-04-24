@@ -1,0 +1,9 @@
+[Unit]
+Description=Randomise wallpapers
+
+[Service]
+Type=simple
+ExecStart=/usr/local/lib/scripts/wallpaper-randomiser.py
+
+[Install]
+WantedBy=multi-user.target
