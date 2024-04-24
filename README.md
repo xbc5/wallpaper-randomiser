@@ -15,6 +15,15 @@ It will cycle through all images randomly in sequence -- so no images are left u
 ```sh
 ./install.sh i
 ```
+Also install native deps (choose one):
+```sh
+sudo apk add feh libnotify
+sudo apt-get install feh libnotify-bin
+sudo brew install feh libnotify 
+sudo dnf install feh libnotify
+sudo pacman -S feh libnotify 
+suo yum install feh libnotify
+```
 
 This will enable the `wallpaper-randomiser.service` too, as a user service.
 
