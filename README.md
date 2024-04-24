@@ -25,7 +25,7 @@ sudo apt-get install feh libnotify-bin
 sudo brew install feh libnotify 
 sudo dnf install feh libnotify
 sudo pacman -S feh libnotify 
-suo yum install feh libnotify
+sudo yum install feh libnotify
 ```
 
 ## Usage
