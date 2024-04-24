@@ -19,7 +19,7 @@ function _install() {
   systemctl --user start wallpaper-randomiser.service
 }
 
-function uninstall() {
+function _uninstall() {
   systemctl --user stop wallpaper-randomiser.service
   systemctl --user disable wallpaper-randomiser.service
 
